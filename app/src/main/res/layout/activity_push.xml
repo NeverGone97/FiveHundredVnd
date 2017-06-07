@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    tools:context="com.a3i.fivehundredvnd.PushActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvYourName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/mapFragment"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/btTurnLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Turn left" />
+
+        <Switch
+            android:id="@+id/btTurnOnSimulate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textOff="Tắt Giả lập"
+            android:textOn="Bật Giả lập" />
+
+        <Button
+            android:id="@+id/btTurnRight"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Turn right" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1061397547552",
+    "firebase_url": "https://graber-169402.firebaseio.com",
+    "project_id": "graber-169402",
+    "storage_bucket": "graber-169402.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061397547552:android:e192c0510a90f2d1",
+        "android_client_info": {
+          "package_name": "com.a3i.fivehundredvnd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061397547552-8q2ssq4471te7oqcensc4cm2u6c624nv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBraUVWW3uJFQl7_dpmisw6F6-0uASfw7s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
